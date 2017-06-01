@@ -1,0 +1,93 @@
+.main-container {
+  padding: 0px 0px;
+  margin:0;
+  position: fixed;
+  height: 200%;
+  width: 100%;
+  background-color: #9FAEC5;
+  background: url('bostoncityblue.jpg');
+}
+
+.carousel-indicators {
+	bottom: -90px;
+}
+
+.carousel-control.right,
+.carousel-control.left {
+	background-image: none;
+}
+.carousel .item {
+	min-height: 350px; 
+	height: 100%;
+	width:100%; 
+}
+
+.carousel .icon-container {
+	display: inline-block;
+	font-size: 25px;
+	line-height: 25px;
+	padding: 1em;
+	text-align: center;
+	border-radius: 50%;
+}
+.carousel-caption {
+	display: inline-block; 
+	height:75%;
+}
+
+h1 {
+  text-align: left;  
+  margin-bottom: 30px;
+  padding-left: .5em;
+  font-size: 18px;
+  font-family: avenir; 
+  font-weight: 900;
+  line-height: 1.2;
+  letter-spacing: -0.033em;
+  color: #0D1728;
+  text-transform: uppercase;
+}
+
+h3>label {
+	font-family: avenir;
+	font-size: 30px;
+	color: #0D1728;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+ul {
+	font-family: avenir;
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 20px;
+	color: #ffffff;
+	list-style: none;
+	margin: -13px;
+}
+
+p {
+	font-family: avenir;
+	font-size: 20px;
+}
+
+hr {
+	color: red;
+}
+
+#backbutton { 
+  padding: 1px;
+  padding-right: 10px;
+  float: right;
+  text-align: right;
+}
+
+
+.input_hidden {
+    position: absolute;
+    left: -9999px;
+}
+
+.selected {
+    background-color: #ccc;
+}
